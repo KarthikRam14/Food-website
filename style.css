@@ -1,0 +1,184 @@
+body{
+    background-color: #0F0D0E;
+    color: #F9F4DA;
+}
+
+.header{
+    /* border: 2px solid pink; */
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+    width: 50vw;
+    height: 13vw;
+}
+
+.headerp{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+#text, .submit{
+    color: #231F20;
+    background-color: #FCBA28;
+}
+
+.search{
+    /* border: 2px solid yellow; */
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.randomDisplay{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 0.75fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    height: 35vw;
+    margin-top: 3vh;
+}
+
+#randomImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.irandom{
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.prandom{
+    font-size: 2.7rem;
+}
+
+.irandom:hover{
+    cursor: grab;
+}
+
+#randomImage{
+    border: 2px solid #F9F4DA;
+}
+
+.modal1{
+    /* border: 2px solid white; */
+    display: none;
+    grid-gap: 5vw;
+    height: max-content;
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.ingredients{
+    /* border: 2px solid rgb(42, 165, 163); */
+    background-color: #252122;
+}
+
+.aboutDish{
+    border: 2px solid blueviolet;
+    background-color: #252122;
+}
+
+.displayAll{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 25vw);
+    grid-gap: 2rem;
+    margin-top: 3vh;
+}
+
+.fristImage, .secondImage, .thirdImage, .fourthImage, .fifthImage, .sixthImage, .seventhImage, .eigthImage, .ninthImage, .tenthImage, .eleventhImage, .twelfthImage{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #252122;
+    border-radius: 25px;
+}
+
+.ifirst,.isecond, .ithird, .ifourth, .ififth, .isixth, .iseventh, .ieigth, .ininth, .itenth, .ievelenth, .itwelfth{
+    width: 14vw;
+    height: 13vw;
+}
+
+.footer{
+    /* border: 2px solid lightgreen; */
+    margin-top: 3vh;
+}
+
+.about, .faq, .contact{
+    text-align: center;
+    color: #231F20;
+    background-color: #FCBA28;
+    width: 4rem;
+    margin: 2vw;
+}
+
+@media (max-width: 800px) {
+
+    .prandom{
+        font-size: 1.5rem;
+    }    
+
+    .displayAll{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 33vw);
+    }
+
+    .pfirst, .psecond, .pthird, .pfourth, .pfifth, .psixth, .pseventh, .peigth, .pninth, .ptenth, .peleventh, .ptwelfth{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .displayAll{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 33vw);
+    }
+
+    .pfirst, .psecond, .pthird, .pfourth, .pfifth, .psixth, .pseventh, .peigth, .pninth, .ptenth, .pevelenth, .ptwelfth{
+        font-size: 1rem;
+    }
+
+    .headerp{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .randomDisplay{
+        height: 45vw;
+    }
+
+    .modal1{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    body{
+        text-align: center;
+    }
+
+    .pfirst, .psecond, .pthird, .pfourth, .pfifth, .psixth, .pseventh, .peigth, .pninth, .ptenth, .pevelenth, .ptwelfth{
+        font-size: 0.7rem;
+    }
+}

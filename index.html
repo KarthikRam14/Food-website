@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <img src="./food website name.png">
+        <p class="headerp" id="headerp"><b>Hey pal!</b><br>
+        Are you confused what to cook today? <br>Check out the below random dish and plan it for today.</p>
+    </div>
+    <div class="search" id="search">
+        <input type="text" id="input" placeholder="Search your favourite dish">
+        <button class="submit" id="submit">Search</button>
+    </div>
+    <div class="randomDisplay" id="random">
+        <div id="randomImage">
+            <img class="irandom" id="irandom" src="">
+            <p class="prandom" id="prandom"></p>
+        </div>
+    </div>
+    <div class="ingredients" id="ingredients"></div>
+    <div class="modal1" id="modal1">
+        <div class="aboutDish" id="aboutDish"></div>
+    </div>
+    <div class="displayAll">
+        <div class="fristImage" id="i1">
+            <img class="ifirst" src="https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg">
+            <p class="pfirst" id="p1">Matar Paneer</p>
+        </div>
+        <div class="secondImage" id="i1">
+            <img class="isecond" src="https://www.themealdb.com/images/media/meals/1550442508.jpg"/>
+            <p class="psecond" id="p2">Chocolate Caramel Crispy</p>
+        </div>
+        <div class="thirdImage" id="i3">
+            <img class="ithird" src="https:\/\/www.themealdb.com\/images\/media\/meals\/vwuprt1511813703.jpg"/>
+            <p class="pthird" id="p3">Nanaimo Bars</p>
+        </div>
+        <div class="fourthImage" id="i4">
+            <img class="ifourth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/yuwtuu1511295751.jpg"/>
+            <p class="pfourth" id="p4">Lamb Tagine</p>
+        </div>
+        <div class="fifthImage" id="i5">
+            <img class="ififth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/utxryw1511721587.jpg"/>
+            <p class="pfifth" id="p5">English Breakfast</p>
+        </div>
+        <div class="sixthImage" id="i6">
+            <img class="isixth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/xusqvw1511638311.jpg"/>
+            <p class="psixth" id="p6">Bubble & Squeak</p>
+        </div>
+        <div class="seventhImage" id="i7">
+            <img class="iseventh" src="https:\/\/www.themealdb.com\/images\/media\/meals\/vxuyrx1511302687.jpg"/>
+            <p class="pseventh" id="p7">Bean & Sausage Hotpot</p>
+        </div>
+        <div class="eigthImage" id="i8">
+            <img class="ieigth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/yxsurp1511304301.jpg"/>
+            <p class="peigth" id="p8">Nutty Chicken Curry</p>
+        </div>
+        <div class="ninthImage" id="i9">
+            <img class="ininth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg"/>
+            <p class="pninth" id="p9">Breakfast Potatoes</p>
+        </div>
+        <div class="tenthImage" id="i10">
+            <img class="itenth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/7n8su21699013057.jpg"/>
+            <p class="ptenth" id="p10">Fish Soup (Ukha)</p>
+        </div>
+        <div class="eleventhImage" id="i11">
+            <img class="ievelenth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/qpxvuq1511798906.jpg"/>
+            <p class="pevelenth" id="p11">Chicken Marengo</p>
+        </div>
+        <div class="twelfthImage" id="i12">
+            <img class="itwelfth" src="https:\/\/www.themealdb.com\/images\/media\/meals\/vmz7gl1614350221.jpg"/>
+            <p class="ptwelfth" id="p12">Portuguese custard tarts</p>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="about">About</div>
+        <div class="faq">FAQ</div>
+        <div class="contact">Contact</div>
+    </div>
+    <!-- <img src="https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg" style="width:30%;cursor:grab"
+  onclick="document.getElementById('modal01').style.display='block'">
+
+  <div id="modal01" class="modal" onclick="this.style.display='none'">
+    <div class="modal-content">
+      <img src="https://www.themealdb.com/images/media/meals/xxpqsy1511452222.jpg" style="width:70%">
+    </div>
+  </div> -->
+  <script src="index.js"></script>
+</body>
+</html>
